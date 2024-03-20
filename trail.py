@@ -1,0 +1,1 @@
+print(dict(zip(["halwa","aaa"],[2,5])))
