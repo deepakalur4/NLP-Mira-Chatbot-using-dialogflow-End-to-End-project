@@ -1,10 +1,6 @@
 import mysql.connector
 cnx = mysql.connector.connect(
-    host="mysql-3fe27ded-deepakalur4-98c8.a.aivencloud.com",
-     user="avnadmin",
-     password="AVNS_rNUIybuLXa1p4-vYvmx",
-    database="defaultdb",
-    port=28903
+"Enter the credentails to connect database"
 )
 def insert_order_item(food_item, quantity, order_id):
     try:
